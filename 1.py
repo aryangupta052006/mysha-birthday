@@ -1463,8 +1463,9 @@ HTML_TEMPLATE = '''
             </div>
             
             <audio id="song" loop>
-                <source src="https://pagalfree.com/music/128-Coco%20Cola%20-%20Ruchika%20Jangid%20128%20Kbps.mp3" type="audio/mpeg">
-            </audio>
+    <source src="/static/coco_cola.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
             
             <div class="cute-quote-enhanced">
                 "You're the melody in my life's song, the rhythm to my heart's beat. 
